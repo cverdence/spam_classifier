@@ -1,0 +1,7 @@
+A simple implementation of a spam classifier using Naive Bayes.
+
+The classifier takes the text file 'data/SMSSpamCollection' as input, convert the label for each SMS to either 1 or 0,
+split into training and test data, and then feed it into the Naive Bayes algorithm.
+
+In order to run the classifier, make sure the SMSSpamCollection file is located in the data directory,
+and then run the file spam_classifier/classifier.py
